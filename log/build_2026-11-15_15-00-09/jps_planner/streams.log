@@ -1,0 +1,30 @@
+[0.009s] Invoking command in '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner -- -j4 -l4
+[0.055s] Consolidate compiler generated dependencies of target jps_planner_node
+[0.068s] [ 33%] Building CXX object CMakeFiles/jps_planner_node.dir/src/jps_planner_node.cpp.o
+[11.790s] [ 66%] Linking CXX executable jps_planner_node
+[12.345s] [100%] Built target jps_planner_node
+[12.355s] Invoked command in '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner -- -j4 -l4
+[12.363s] Invoking command in '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner
+[12.373s] -- Install configuration: ""
+[12.373s] -- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/lib/jps_planner/jps_planner_node
+[12.388s] -- Set runtime path of "/home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/lib/jps_planner/jps_planner_node" to ""
+[12.388s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/launch
+[12.388s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/launch/jps_rviz.launch.py
+[12.388s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/rviz
+[12.388s] -- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/rviz/jps_planner.rviz
+[12.388s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/ament_index/resource_index/package_run_dependencies/jps_planner
+[12.388s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/ament_index/resource_index/parent_prefix_path/jps_planner
+[12.388s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/environment/ament_prefix_path.sh
+[12.388s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/environment/ament_prefix_path.dsv
+[12.388s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/environment/path.sh
+[12.388s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/environment/path.dsv
+[12.389s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/local_setup.bash
+[12.389s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/local_setup.sh
+[12.389s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/local_setup.zsh
+[12.389s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/local_setup.dsv
+[12.389s] -- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/package.dsv
+[12.389s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/ament_index/resource_index/packages/jps_planner
+[12.389s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/cmake/jps_plannerConfig.cmake
+[12.389s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/cmake/jps_plannerConfig-version.cmake
+[12.389s] -- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/package.xml
+[12.390s] Invoked command in '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner

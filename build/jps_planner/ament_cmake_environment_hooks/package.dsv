@@ -1,0 +1,4 @@
+source;share/jps_planner/local_setup.bash
+source;share/jps_planner/local_setup.dsv
+source;share/jps_planner/local_setup.sh
+source;share/jps_planner/local_setup.zsh

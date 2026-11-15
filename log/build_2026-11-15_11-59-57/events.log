@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (jps_planner) JobQueued: {'identifier': 'jps_planner', 'dependencies': OrderedDict()}
+[0.000350] (jps_planner) JobStarted: {'identifier': 'jps_planner'}
+[0.011958] (jps_planner) JobProgress: {'identifier': 'jps_planner', 'progress': 'cmake'}
+[0.012306] (jps_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/mcr/Workspace/RM/jps_planner_ws/src/jps_planner', '-DCMAKE_INSTALL_PREFIX=/home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner'], 'cwd': '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner', 'env': OrderedDict([('LANGUAGE', 'zh_CN:zh'), ('USER', 'mcr'), ('SSH_CLIENT', '192.168.170.1 60653 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mcr'), ('OLDPWD', '/home/mcr'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mcr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner'), ('SSH_CONNECTION', '192.168.170.1 60653 192.168.170.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099736] (-) TimerEvent: {}
+[0.154068] (jps_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199857] (-) TimerEvent: {}
+[0.258798] (jps_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.270293] (jps_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300012] (-) TimerEvent: {}
+[0.334622] (jps_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.338553] (jps_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.339326] (jps_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.340247] (jps_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.343626] (jps_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400165] (-) TimerEvent: {}
+[0.410536] (jps_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.413803] (jps_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.414211] (jps_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.414570] (jps_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.422277] (jps_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500399] (-) TimerEvent: {}
+[0.528299] (jps_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600533] (-) TimerEvent: {}
+[0.615301] (jps_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.666767] (jps_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.672918] (jps_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.683962] (jps_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.700291] (jps_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700639] (-) TimerEvent: {}
+[0.718669] (jps_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.774448] (jps_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.778513] (jps_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800976] (-) TimerEvent: {}
+[0.869705] (jps_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.889506] (jps_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.901141] (-) TimerEvent: {}
+[0.916586] (jps_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.928864] (jps_planner) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001259] (-) TimerEvent: {}
+[1.005285] (jps_planner) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.005545] (jps_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.063308] (jps_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.064181] (jps_planner) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101379] (-) TimerEvent: {}
+[1.133732] (jps_planner) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.169914] (jps_planner) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.201512] (-) TimerEvent: {}
+[1.253782] (jps_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.262069] (jps_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[1.264571] (jps_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner\n'}
+[1.270931] (jps_planner) CommandEnded: {'returncode': 0}
+[1.271405] (jps_planner) JobProgress: {'identifier': 'jps_planner', 'progress': 'build'}
+[1.271853] (jps_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner', '--', '-j4', '-l4'], 'cwd': '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner', 'env': OrderedDict([('LANGUAGE', 'zh_CN:zh'), ('USER', 'mcr'), ('SSH_CLIENT', '192.168.170.1 60653 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mcr'), ('OLDPWD', '/home/mcr'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mcr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner'), ('SSH_CONNECTION', '192.168.170.1 60653 192.168.170.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.301609] (-) TimerEvent: {}
+[1.310773] (jps_planner) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/jps_planner_node.dir/src/jps_planner_node.cpp.o\n'}
+[1.310902] (jps_planner) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/jps_planner_node.dir/src/jps.cpp.o\n'}
+[1.401730] (-) TimerEvent: {}
+[1.502206] (-) TimerEvent: {}
+[1.535580] (jps_planner) StderrLine: {'line': b'/home/mcr/Workspace/RM/jps_planner_ws/src/jps_planner/src/jps.cpp: In member function \xe2\x80\x98void jps::JPS::identifySuccessors(const jps::JPS::Node&, const jps::GridPos&, std::vector<jps::GridPos>&) const\xe2\x80\x99:\n'}
+[1.535868] (jps_planner) StderrLine: {'line': b'/home/mcr/Workspace/RM/jps_planner_ws/src/jps_planner/src/jps.cpp:78:38: warning: unused parameter \xe2\x80\x98goal\xe2\x80\x99 [-Wunused-parameter]\n'}
+[1.535920] (jps_planner) StderrLine: {'line': b'   78 |   const Node & node, const GridPos & goal, std::vector<GridPos> & out) const\n'}
+[1.535954] (jps_planner) StderrLine: {'line': b'      |                      ~~~~~~~~~~~~~~~~^~~~\n'}
+[1.602379] (-) TimerEvent: {}
+[1.702812] (-) TimerEvent: {}
+[1.803063] (-) TimerEvent: {}
+[1.903292] (-) TimerEvent: {}
+[2.003638] (-) TimerEvent: {}
+[2.104150] (-) TimerEvent: {}
+[2.204598] (-) TimerEvent: {}
+[2.304848] (-) TimerEvent: {}
+[2.405167] (-) TimerEvent: {}
+[2.505521] (-) TimerEvent: {}
+[2.605867] (-) TimerEvent: {}
+[2.706272] (-) TimerEvent: {}
+[2.806602] (-) TimerEvent: {}
+[2.906924] (-) TimerEvent: {}
+[3.007196] (-) TimerEvent: {}
+[3.107593] (-) TimerEvent: {}
+[3.207991] (-) TimerEvent: {}
+[3.308433] (-) TimerEvent: {}
+[3.408727] (-) TimerEvent: {}
+[3.509008] (-) TimerEvent: {}
+[3.609430] (-) TimerEvent: {}
+[3.709768] (-) TimerEvent: {}
+[3.810046] (-) TimerEvent: {}
+[3.910372] (-) TimerEvent: {}
+[4.010740] (-) TimerEvent: {}
+[4.110971] (-) TimerEvent: {}
+[4.211254] (-) TimerEvent: {}
+[4.311653] (-) TimerEvent: {}
+[4.412081] (-) TimerEvent: {}
+[4.512448] (-) TimerEvent: {}
+[4.612734] (-) TimerEvent: {}
+[4.713099] (-) TimerEvent: {}
+[4.813447] (-) TimerEvent: {}
+[4.913879] (-) TimerEvent: {}
+[5.014295] (-) TimerEvent: {}
+[5.114823] (-) TimerEvent: {}
+[5.215114] (-) TimerEvent: {}
+[5.315433] (-) TimerEvent: {}
+[5.415666] (-) TimerEvent: {}
+[5.515965] (-) TimerEvent: {}
+[5.616400] (-) TimerEvent: {}
+[5.716764] (-) TimerEvent: {}
+[5.816997] (-) TimerEvent: {}
+[5.917297] (-) TimerEvent: {}
+[6.017635] (-) TimerEvent: {}
+[6.117913] (-) TimerEvent: {}
+[6.218230] (-) TimerEvent: {}
+[6.318531] (-) TimerEvent: {}
+[6.418795] (-) TimerEvent: {}
+[6.519045] (-) TimerEvent: {}
+[6.619547] (-) TimerEvent: {}
+[6.719944] (-) TimerEvent: {}
+[6.820172] (-) TimerEvent: {}
+[6.920496] (-) TimerEvent: {}
+[7.020876] (-) TimerEvent: {}
+[7.121112] (-) TimerEvent: {}
+[7.221457] (-) TimerEvent: {}
+[7.321764] (-) TimerEvent: {}
+[7.422010] (-) TimerEvent: {}
+[7.522255] (-) TimerEvent: {}
+[7.622556] (-) TimerEvent: {}
+[7.722834] (-) TimerEvent: {}
+[7.823230] (-) TimerEvent: {}
+[7.923471] (-) TimerEvent: {}
+[8.023786] (-) TimerEvent: {}
+[8.124033] (-) TimerEvent: {}
+[8.224373] (-) TimerEvent: {}
+[8.324810] (-) TimerEvent: {}
+[8.425222] (-) TimerEvent: {}
+[8.525555] (-) TimerEvent: {}
+[8.625888] (-) TimerEvent: {}
+[8.726155] (-) TimerEvent: {}
+[8.826527] (-) TimerEvent: {}
+[8.926730] (-) TimerEvent: {}
+[9.026917] (-) TimerEvent: {}
+[9.127091] (-) TimerEvent: {}
+[9.227456] (-) TimerEvent: {}
+[9.327723] (-) TimerEvent: {}
+[9.427958] (-) TimerEvent: {}
+[9.528160] (-) TimerEvent: {}
+[9.628591] (-) TimerEvent: {}
+[9.728847] (-) TimerEvent: {}
+[9.829133] (-) TimerEvent: {}
+[9.929594] (-) TimerEvent: {}
+[10.029937] (-) TimerEvent: {}
+[10.130327] (-) TimerEvent: {}
+[10.189320] (jps_planner) StdoutLine: {'line': b'[100%] Linking CXX executable jps_planner_node\n'}
+[10.230508] (-) TimerEvent: {}
+[10.330743] (-) TimerEvent: {}
+[10.430962] (-) TimerEvent: {}
+[10.531456] (-) TimerEvent: {}
+[10.631966] (-) TimerEvent: {}
+[10.732405] (-) TimerEvent: {}
+[10.785355] (jps_planner) StdoutLine: {'line': b'[100%] Built target jps_planner_node\n'}
+[10.793551] (jps_planner) CommandEnded: {'returncode': 0}
+[10.794005] (jps_planner) JobProgress: {'identifier': 'jps_planner', 'progress': 'install'}
+[10.800688] (jps_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner'], 'cwd': '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner', 'env': OrderedDict([('LANGUAGE', 'zh_CN:zh'), ('USER', 'mcr'), ('SSH_CLIENT', '192.168.170.1 60653 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mcr'), ('OLDPWD', '/home/mcr'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mcr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner'), ('SSH_CONNECTION', '192.168.170.1 60653 192.168.170.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.806744] (jps_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.806846] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/lib/jps_planner/jps_planner_node\n'}
+[10.811929] (jps_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/lib/jps_planner/jps_planner_node" to ""\n'}
+[10.812115] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/launch\n'}
+[10.812195] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/launch/jps_rviz.launch.py\n'}
+[10.812622] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/rviz\n'}
+[10.813094] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/rviz/jps_planner.rviz\n'}
+[10.813172] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/ament_index/resource_index/package_run_dependencies/jps_planner\n'}
+[10.813254] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/ament_index/resource_index/parent_prefix_path/jps_planner\n'}
+[10.813327] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/environment/ament_prefix_path.sh\n'}
+[10.813388] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/environment/ament_prefix_path.dsv\n'}
+[10.813458] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/environment/path.sh\n'}
+[10.813527] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/environment/path.dsv\n'}
+[10.813770] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/local_setup.bash\n'}
+[10.813807] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/local_setup.sh\n'}
+[10.813838] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/local_setup.zsh\n'}
+[10.813869] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/local_setup.dsv\n'}
+[10.813901] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/package.dsv\n'}
+[10.813931] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/ament_index/resource_index/packages/jps_planner\n'}
+[10.813963] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/cmake/jps_plannerConfig.cmake\n'}
+[10.813993] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/cmake/jps_plannerConfig-version.cmake\n'}
+[10.814022] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/package.xml\n'}
+[10.814648] (jps_planner) CommandEnded: {'returncode': 0}
+[10.832615] (-) TimerEvent: {}
+[10.837438] (jps_planner) JobEnded: {'identifier': 'jps_planner', 'rc': 0}
+[10.837895] (-) EventReactorShutdown: {}

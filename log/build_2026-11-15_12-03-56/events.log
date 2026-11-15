@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000638] (jps_planner) JobQueued: {'identifier': 'jps_planner', 'dependencies': OrderedDict()}
+[0.000678] (jps_planner) JobStarted: {'identifier': 'jps_planner'}
+[0.006294] (jps_planner) JobProgress: {'identifier': 'jps_planner', 'progress': 'cmake'}
+[0.006636] (jps_planner) JobProgress: {'identifier': 'jps_planner', 'progress': 'build'}
+[0.007528] (jps_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner', '--', '-j4', '-l4'], 'cwd': '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner', 'env': OrderedDict([('LANGUAGE', 'zh_CN:zh'), ('USER', 'mcr'), ('SSH_CLIENT', '192.168.170.1 60785 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mcr'), ('OLDPWD', '/home/mcr'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '17'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mcr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner'), ('SSH_CONNECTION', '192.168.170.1 60785 192.168.170.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.042840] (jps_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target jps_planner_node\n'}
+[0.053890] (jps_planner) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/jps_planner_node.dir/src/jps_planner_node.cpp.o\n'}
+[0.099269] (-) TimerEvent: {}
+[0.199493] (-) TimerEvent: {}
+[0.299737] (-) TimerEvent: {}
+[0.400098] (-) TimerEvent: {}
+[0.500583] (-) TimerEvent: {}
+[0.600826] (-) TimerEvent: {}
+[0.701191] (-) TimerEvent: {}
+[0.801657] (-) TimerEvent: {}
+[0.902027] (-) TimerEvent: {}
+[1.002419] (-) TimerEvent: {}
+[1.102742] (-) TimerEvent: {}
+[1.202977] (-) TimerEvent: {}
+[1.303254] (-) TimerEvent: {}
+[1.403654] (-) TimerEvent: {}
+[1.504021] (-) TimerEvent: {}
+[1.604276] (-) TimerEvent: {}
+[1.704554] (-) TimerEvent: {}
+[1.804823] (-) TimerEvent: {}
+[1.905041] (-) TimerEvent: {}
+[2.005260] (-) TimerEvent: {}
+[2.105565] (-) TimerEvent: {}
+[2.205846] (-) TimerEvent: {}
+[2.306095] (-) TimerEvent: {}
+[2.406350] (-) TimerEvent: {}
+[2.506643] (-) TimerEvent: {}
+[2.606868] (-) TimerEvent: {}
+[2.707114] (-) TimerEvent: {}
+[2.807460] (-) TimerEvent: {}
+[2.907734] (-) TimerEvent: {}
+[3.008034] (-) TimerEvent: {}
+[3.108289] (-) TimerEvent: {}
+[3.208546] (-) TimerEvent: {}
+[3.308785] (-) TimerEvent: {}
+[3.409167] (-) TimerEvent: {}
+[3.509469] (-) TimerEvent: {}
+[3.609817] (-) TimerEvent: {}
+[3.710055] (-) TimerEvent: {}
+[3.810370] (-) TimerEvent: {}
+[3.910642] (-) TimerEvent: {}
+[4.010955] (-) TimerEvent: {}
+[4.111235] (-) TimerEvent: {}
+[4.211450] (-) TimerEvent: {}
+[4.311736] (-) TimerEvent: {}
+[4.412020] (-) TimerEvent: {}
+[4.512222] (-) TimerEvent: {}
+[4.612464] (-) TimerEvent: {}
+[4.712739] (-) TimerEvent: {}
+[4.813120] (-) TimerEvent: {}
+[4.913450] (-) TimerEvent: {}
+[5.013724] (-) TimerEvent: {}
+[5.113934] (-) TimerEvent: {}
+[5.214152] (-) TimerEvent: {}
+[5.314593] (-) TimerEvent: {}
+[5.414887] (-) TimerEvent: {}
+[5.515117] (-) TimerEvent: {}
+[5.615348] (-) TimerEvent: {}
+[5.715571] (-) TimerEvent: {}
+[5.815911] (-) TimerEvent: {}
+[5.916173] (-) TimerEvent: {}
+[6.016441] (-) TimerEvent: {}
+[6.116734] (-) TimerEvent: {}
+[6.217075] (-) TimerEvent: {}
+[6.317327] (-) TimerEvent: {}
+[6.417937] (-) TimerEvent: {}
+[6.518317] (-) TimerEvent: {}
+[6.618634] (-) TimerEvent: {}
+[6.718909] (-) TimerEvent: {}
+[6.819158] (-) TimerEvent: {}
+[6.919393] (-) TimerEvent: {}
+[7.019716] (-) TimerEvent: {}
+[7.119993] (-) TimerEvent: {}
+[7.220385] (-) TimerEvent: {}
+[7.320650] (-) TimerEvent: {}
+[7.421009] (-) TimerEvent: {}
+[7.521242] (-) TimerEvent: {}
+[7.621590] (-) TimerEvent: {}
+[7.721844] (-) TimerEvent: {}
+[7.822210] (-) TimerEvent: {}
+[7.922460] (-) TimerEvent: {}
+[8.022704] (-) TimerEvent: {}
+[8.122945] (-) TimerEvent: {}
+[8.223204] (-) TimerEvent: {}
+[8.309042] (jps_planner) StdoutLine: {'line': b'[ 66%] Linking CXX executable jps_planner_node\n'}
+[8.323367] (-) TimerEvent: {}
+[8.423617] (-) TimerEvent: {}
+[8.523846] (-) TimerEvent: {}
+[8.624165] (-) TimerEvent: {}
+[8.721593] (jps_planner) StdoutLine: {'line': b'[100%] Built target jps_planner_node\n'}
+[8.724297] (-) TimerEvent: {}
+[8.729264] (jps_planner) CommandEnded: {'returncode': 0}
+[8.729835] (jps_planner) JobProgress: {'identifier': 'jps_planner', 'progress': 'install'}
+[8.736962] (jps_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner'], 'cwd': '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner', 'env': OrderedDict([('LANGUAGE', 'zh_CN:zh'), ('USER', 'mcr'), ('SSH_CLIENT', '192.168.170.1 60785 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mcr'), ('OLDPWD', '/home/mcr'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '17'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mcr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/mcr/Workspace/RM/jps_planner_ws/build/jps_planner'), ('SSH_CONNECTION', '192.168.170.1 60785 192.168.170.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.743353] (jps_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.743637] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/lib/jps_planner/jps_planner_node\n'}
+[8.748854] (jps_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/lib/jps_planner/jps_planner_node" to ""\n'}
+[8.749042] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/launch\n'}
+[8.749124] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/launch/jps_rviz.launch.py\n'}
+[8.749207] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/rviz\n'}
+[8.749276] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/rviz/jps_planner.rviz\n'}
+[8.749480] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/ament_index/resource_index/package_run_dependencies/jps_planner\n'}
+[8.749545] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/ament_index/resource_index/parent_prefix_path/jps_planner\n'}
+[8.749583] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/environment/ament_prefix_path.sh\n'}
+[8.749622] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/environment/ament_prefix_path.dsv\n'}
+[8.749653] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/environment/path.sh\n'}
+[8.749684] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/environment/path.dsv\n'}
+[8.749726] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/local_setup.bash\n'}
+[8.749766] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/local_setup.sh\n'}
+[8.749798] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/local_setup.zsh\n'}
+[8.749829] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/local_setup.dsv\n'}
+[8.749860] (jps_planner) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/package.dsv\n'}
+[8.749892] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/ament_index/resource_index/packages/jps_planner\n'}
+[8.749924] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/cmake/jps_plannerConfig.cmake\n'}
+[8.749955] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/cmake/jps_plannerConfig-version.cmake\n'}
+[8.749989] (jps_planner) StdoutLine: {'line': b'-- Up-to-date: /home/mcr/Workspace/RM/jps_planner_ws/install/jps_planner/share/jps_planner/package.xml\n'}
+[8.750491] (jps_planner) CommandEnded: {'returncode': 0}
+[8.762223] (jps_planner) JobEnded: {'identifier': 'jps_planner', 'rc': 0}
+[8.762938] (-) EventReactorShutdown: {}

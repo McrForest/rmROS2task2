@@ -1,0 +1,4 @@
+/home/mcr/Workspace/RM/jps_planner_ws/src/jps_planner/src/jps.cpp: In member function ‘void jps::JPS::identifySuccessors(const jps::JPS::Node&, const jps::GridPos&, std::vector<jps::GridPos>&) const’:
+/home/mcr/Workspace/RM/jps_planner_ws/src/jps_planner/src/jps.cpp:78:38: warning: unused parameter ‘goal’ [-Wunused-parameter]
+   78 |   const Node & node, const GridPos & goal, std::vector<GridPos> & out) const
+      |                      ~~~~~~~~~~~~~~~~^~~~
